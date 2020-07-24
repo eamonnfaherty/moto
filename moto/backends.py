@@ -61,6 +61,7 @@ BACKENDS = {
     "s3bucket_path": ("s3", "s3_backends"),
     "sagemaker": ("sagemaker", "sagemaker_backends"),
     "secretsmanager": ("secretsmanager", "secretsmanager_backends"),
+    "ssm": ("servicecatalog", "servicecatalog_backends"),
     "ses": ("ses", "ses_backends"),
     "sns": ("sns", "sns_backends"),
     "sqs": ("sqs", "sqs_backends"),
